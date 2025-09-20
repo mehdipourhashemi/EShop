@@ -1,0 +1,15 @@
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\bin\Debug\net8.0\IDP.Application.deps.json
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\bin\Debug\net8.0\IDP.Application.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\bin\Debug\net8.0\IDP.Application.pdb
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.csproj.AssemblyReference.cache
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.AssemblyInfoInputs.cache
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.AssemblyInfo.cs
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.csproj.CoreCompileInputs.cache
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\refint\IDP.Application.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Application.pdb
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\ref\IDP.Application.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\bin\Debug\net8.0\IDP.Domain.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\bin\Debug\net8.0\IDP.Domain.pdb
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Application\obj\Debug\net8.0\IDP.Appl.0B7DE00E.Up2Date

@@ -1,0 +1,12 @@
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\bin\Debug\net8.0\IDP.Domain.deps.json
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\bin\Debug\net8.0\IDP.Domain.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\bin\Debug\net8.0\IDP.Domain.pdb
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.csproj.AssemblyReference.cache
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.AssemblyInfoInputs.cache
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.AssemblyInfo.cs
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\refint\IDP.Domain.dll
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\IDP.Domain.pdb
+C:\Users\Hadis\Desktop\EShop\EShop\IDP.Domain\obj\Debug\net8.0\ref\IDP.Domain.dll
