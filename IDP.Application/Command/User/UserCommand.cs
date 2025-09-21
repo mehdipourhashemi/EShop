@@ -1,5 +1,4 @@
-﻿using FluentValidation;
-using IDP.Domain.IRepository.Command;
+﻿using IDP.Domain.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -16,28 +15,11 @@ public class UserCommand : IRequest<bool>
 }
 public class UserHandler : IRequestHandler<UserCommand, bool>
 {
-    private readonly IUserRepository _user;
-    public UserHandler(IUserRepository user)
-    {
-        this._user = user;
-    }
+    
     public async Task<bool> Handle(UserCommand request, CancellationToken cancellationToken)
     {
-        var user = new Domain.Entities.User() { FullName = request.FullName, CodeNumber = request.CodeNumber };
-        return await _user.Insert(user);
+        var user = new IDP.Domain.Entities.User { FullName = request.FullName, CodeNumber = request.CodeNumber };
+        return true;
     }
-}
-public sealed class UserCommandValidator : AbstractValidator<UserCommand>
-{
-    public UserCommandValidator()
-    {
-        RuleFor(x => x.FullName)
-            .NotEmpty()
-            .WithMessage("کد ملی الزامی است")
-            .Length(10)
-            .WithMessage("کد ملی باید ۱۰ رقم باشد")
-            .Matches(@"^\d{10}$")
-            .WithMessage("کد ملی باید فقط شامل اعداد باشد");
-
-    }
+    
 }

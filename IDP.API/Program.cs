@@ -1,6 +1,5 @@
+using Asp.Versioning;
 using IDP.Application.Command.User;
-using IDP.Domain.IRepository.Command;
-using IDP.Infra.Repository.Command;
 using MediatR;
 using System.Reflection;
 
@@ -13,7 +12,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(typeof(UserCommand).GetTypeInfo().Assembly);
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1); //same as ApiVersion.Default
+    options.ReportApiVersions = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new UrlSegmentApiVersionReader(),
+        new HeaderApiVersionReader("X-Api-Version"));
+})
+   .AddApiExplorer(options =>
+   {
+       options.GroupNameFormat = "'v'V";
+       options.SubstituteApiVersionInUrl = true;
+   });
+
 
 var app = builder.Build();
 
