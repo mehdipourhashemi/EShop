@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Auth\Auth.csproj" />
     <ProjectReference Include="..\IDP.Application\IDP.Application.csproj" />
     <ProjectReference Include="..\IDP.Infra\IDP.Infra.csproj" />
   </ItemGroup>

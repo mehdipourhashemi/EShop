@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repository\Command\" />
+    <Folder Include="Repository\Base\" />
   </ItemGroup>
 
 </Project>
